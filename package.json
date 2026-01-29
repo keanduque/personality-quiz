@@ -1,6 +1,6 @@
 {
-  "name": "codex-personality-quiz",
   "homepage": "https://keanduque.github.io/personality-quiz",
+  "name": "codex-personality-quiz",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^19.2.0",
